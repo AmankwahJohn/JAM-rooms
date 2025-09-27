@@ -1,0 +1,59 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+nav {
+    background-color: rgb(11, 55, 82);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: aliceblue;
+}
+
+.logo i {
+    margin-right: 10px;
+}
+
+ul {
+    list-style: none;
+    color: aliceblue;
+    display: flex;
+    gap: 20px;
+
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+a:hover{
+    color: navy;
+}
+
+.Authenticator i {
+    margin-right: 6px;
+}
+
+.banner {
+    min-height: 100vh; /* full viewport height */
+    background: url('../static/room1.jpg') center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* vertical centering */
+    align-items: center;     /* horizontal centering */
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 50px 20px; /* optional spacing around text */
+}
+
+p {
+    color: rgb(245, 57, 0);
+}

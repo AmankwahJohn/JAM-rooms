@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create a Jam account</title>
+    <link rel="stylesheet" href="../static/signup.css">
+</head>
+<body>
+    <div class="head">
+        <h2>Create a free JAM account</h2>
+        <p>Fill the spaces provided</p>
+    </div>
+    <section class="formpart">
+        <form id="signupForm">
+            <label for="username">Username:</label>
+            <input type="text" id="username" minlength="8" maxlength="16" placeholder="johnbuLL" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="johnbull@gmail.com" required><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" minlength="8" maxlength="15" required placeholder="Enter your password here"><br>
+        
+            <label for="confirmPassword">Confirm password:</label>
+            <input type="password" id="confirmPassword" minlength="8" maxlength="15" required placeholder="Confirm your password"><br>
+
+            <button type="submit" class="signupbutton">Sign Up</button>
+        </form>
+        <div class="already">
+            <p>Already have an account? <a href="login.html">Login here</a></p>
+        </div>
+    </section>
+    <script src="../static/signup.js"></script>
+</body>
+</html>
